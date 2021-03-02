@@ -1,0 +1,79 @@
+.nomPrenom {
+  text-align: right;
+  font-size: 27px;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: #505050;
+  position: relative;
+  height: 200px;
+  width: 45%;
+}
+
+.photo {
+  position: relative;
+  top: -245px;
+  left: 4%;
+  height: 10px;
+}
+
+.contact {
+  position: relative;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 25px;
+  top: 15px;
+  width: 760px;
+  height: 254px;
+  font-size: 18px;
+  left: 55%;
+  top: -270px;
+}
+
+.presentation {
+  position: relative;
+  text-align: center;
+  border: 3px solid black;
+  width: 94%;
+  height: 250px;
+  left: 25px;
+  top: -240px;
+  border-radius: 25px;
+  font-size: 20px;
+
+}
+
+.abilities {
+  position: relative;
+  text-align: center;
+  border: 3px solid black;
+  width: 900px;
+  height: 285px;
+  left: 900px;
+  top: -490px;
+  border-radius: 25px;
+  font-size: 25px;
+}
+
+.experience {
+  position: relative;
+  text-align: center;
+  border: 3px solid black;
+  width: 800px;
+  top: -200px;
+  height: 285px;
+  left: 25px;
+  border-radius: 25px;
+  font-size: 25px;
+}
+
+.portfolio {
+  position: relative;
+  text-align: center;
+  border: 3px solid black;
+  left: 25px;
+  top: -450px;
+  width: 94%;
+  border-radius: 50px;
+  font-size: 25px;
+}
