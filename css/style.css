@@ -29,12 +29,11 @@
   font-size: 18px;
   left: 55%;
   top: -270px;
-  transition: .5s;
 }
 
-.contact:hover {
-  background-color: grey;
-}
+/*-----------------------------------------------*/
+/*PRESENTATION*/
+/*-----------------------------------------------*/
 
 .presentation {
   position: relative;
@@ -45,25 +44,51 @@
   left: 25px;
   top: -240px;
   border-radius: 25px;
-  font-size: 20px;
+  font-size: 70px;
   overflow: hidden;
+
 }
-.presentationText{
+
+.presentation:before {
+  content: attr(data-title);
+  position: relative;
+  top: 60px;
+  font-size: 100px;
+  transition: .5s;
+  opacity: 1;
+}
+
+.presentation::after {
+  content: attr(data-text);
+  position: absolute;
+  width: 94%;
+  height: 250px;
+  font-weight: 300;
+  letter-spacing: 20px;
+  font-size: 35px;
+  top: 5px;
+  left: 50px;
+  transition: 1s;
   opacity: 0;
 }
-.presentationMain:hover{
-  margin-top: 95px;
-  font-size: 50px;
-}
-.presentationMain:hover{
-  animation: presentationMain 2s ease-in-out;
-}
-@keyframes presentationMain{
-100%{
+
+.presentation:hover::before {
+  transition: 1s;
   opacity: 0;
   font-size: 0px;
 }
+
+
+.presentation:hover::after {
+  transition: 1s;
+  letter-spacing: 1px;
+  opacity: 1;
 }
+
+/*-----------------------------------------------*/
+/*ABILITIES*/
+/*-----------------------------------------------*/
+
 .abilities {
   position: relative;
   text-align: center;
@@ -76,6 +101,48 @@
   font-size: 25px;
 }
 
+.abilities:before {
+  content: attr(data-title);
+  position: relative;
+  top: 80px;
+  font-size: 100px;
+  transition: .5s;
+  opacity: 1;
+}
+
+.abilities::after {
+  content: attr(data-text);
+  position: absolute;
+  width: 94%;
+  height: 270px;
+  font-weight: 300;
+  letter-spacing: 30px;
+  font-size: 25px;
+  top: 25px;
+  left: 25px;
+  transition: 1s;
+  opacity: 0;
+}
+
+.abilities:hover::before {
+  transition: 1s;
+  font-size: 0px;
+  opacity: 0;
+
+}
+
+
+.abilities:hover::after {
+  transition: 1s;
+  letter-spacing: 1px;
+  opacity: 1;
+}
+
+/*-----------------------------------------------*/
+/*EXPERIENCE*/
+/*-----------------------------------------------*/
+
+
 .experience {
   position: relative;
   text-align: center;
@@ -86,6 +153,44 @@
   left: 25px;
   border-radius: 25px;
   font-size: 25px;
+  overflow: hidden;
+}
+
+.experience:before {
+  content: attr(data-title);
+  position: relative;
+  top: 80px;
+  font-size: 100px;
+  transition: .5s;
+  opacity: 1;
+}
+
+.experience::after {
+  content: attr(data-text);
+  position: absolute;
+  width: 94%;
+  height: 250px;
+  font-weight: 300;
+  letter-spacing: 20px;
+  font-size: 25px;
+  top: 10px;
+  left: 25px;
+  transition: 1s;
+  opacity: 0;
+}
+
+.experience:hover::before {
+  transition: 1s;
+  font-size: 0px;
+  opacity: 0;
+
+}
+
+
+.experience:hover::after {
+  transition: 1s;
+  letter-spacing: 1px;
+  opacity: 1;
 }
 
 .portfolio {
