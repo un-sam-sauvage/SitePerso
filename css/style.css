@@ -99,6 +99,7 @@
   top: -490px;
   border-radius: 25px;
   font-size: 25px;
+  overflow: hidden;
 }
 
 .abilities:before {
