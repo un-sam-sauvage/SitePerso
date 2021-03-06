@@ -9,7 +9,9 @@
   height: 200px;
   width: 45%;
 }
-
+body{
+ height: 1150px;
+}
 .photo {
   position: relative;
   top: -245px;
