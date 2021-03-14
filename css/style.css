@@ -222,23 +222,12 @@ body{
 
 @media all and (max-width : 1200px){
   .nomPrenom {
-    text-align: right;
-    font-size: 27px;
-    padding: 1em;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: #505050;
-    position: relative;
     height: 180px;
     width: 550px;
-    left: 25px;
+    left: 5px;
   }
 
-  body{
-   height: 1150px;
-  }
   .photo {
-    positionà: relative;
     top: -225px;
     left: 55px;
     height: 10px;
@@ -248,15 +237,9 @@ body{
     height: 210px;
   }
   .contact {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
-    border-radius: 5px;
-    top: 15px;
     width: 525px;
     height: 232px;
-    font-size: 18px;
-    left: 650px;
+    left: 630px;
     top: -248px;
   }
   
@@ -265,108 +248,24 @@ body{
   /*-----------------------------------------------*/
   
   .presentation {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
     width: 1150px;
-    height: 250px;
-    left: 25px;
+    left: 5px;
     top: -225px;
-    border-radius: 5px;
-    font-size: 70px;
-    overflow: hidden;
   
   }
   
-  .presentation:before {
-    content: attr(data-title);
-    position: relative;
-    top: 60px;
-    font-size: 100px;
-    transition: .5s;
-    opacity: 1;
-  }
-  
-  .presentation::after {
-    content: attr(data-text);
-    position: absolute;
-    width: 94%;
-    height: 250px;
-    font-weight: 300;
-    letter-spacing: 20px;
-    font-size: 35px;
-    top: 5px;
-    left: 50px;
-    transition: 1s;
-    opacity: 0;
-  }
-  
-  .presentation:hover::before {
-    transition: 1s;
-    opacity: 0;
-    font-size: 0px;
-  }
-  
-  
-  .presentation:hover::after {
-    transition: 1s;
-    letter-spacing: 1px;
-    opacity: 1;
-  }
-  
+    
   /*-----------------------------------------------*/
   /*ABILITIES*/
   /*-----------------------------------------------*/
   
   .abilities {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
-    width: 525px;
+   width: 525px;
     height: 285px;
-    left: 650px;
+    left: 630px;
     top: -481px;
-    border-radius: 5px;
-    font-size: 25px;
-    overflow: hidden;
   }
   
-  .abilities:before {
-    content: attr(data-title);
-    position: relative;
-    top: 80px;
-    font-size: 100px;
-    transition: .5s;
-    opacity: 1;
-  }
-  
-  .abilities::after {
-    content: attr(data-text);
-    position: absolute;
-    width: 94%;
-    height: 270px;
-    font-weight: 300;
-    letter-spacing: 30px;
-    font-size: 25px;
-    top: 25px;
-    left: 25px;
-    transition: 1s;
-    opacity: 0;
-  }
-  
-  .abilities:hover::before {
-    transition: 1s;
-    font-size: 0px;
-    opacity: 0;
-  
-  }
-  
-  
-  .abilities:hover::after {
-    transition: 1s;
-    letter-spacing: 1px;
-    opacity: 1;
-  }
   
   /*-----------------------------------------------*/
   /*EXPERIENCE*/
@@ -374,64 +273,16 @@ body{
   
   
   .experience {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
     width: 600px;
     top: -190px;
     height: 285px;
-    left: 25px;
-    border-radius: 5px;
-    font-size: 25px;
-    overflow: hidden;
-  }
+    left: 5px;}
   
-  .experience:before {
-    content: attr(data-title);
-    position: relative;
-    top: 80px;
-    font-size: 100px;
-    transition: .5s;
-    opacity: 1;
-  }
-  
-  .experience::after {
-    content: attr(data-text);
-    position: absolute;
-    width: 94%;
-    height: 250px;
-    font-weight: 300;
-    letter-spacing: 20px;
-    font-size: 25px;
-    top: 10px;
-    left: 25px;
-    transition: 1s;
-    opacity: 0;
-  }
-  
-  .experience:hover::before {
-    transition: 1s;
-    font-size: 0px;
-    opacity: 0;
-  
-  }
-  
-  
-  .experience:hover::after {
-    transition: 1s;
-    letter-spacing: 1px;
-    opacity: 1;
-  }
-  
+   
   .portfolio {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
-    left: 25px;
+    left: 5px;
     top: -450px;
     width: 1150px;
-    border-radius: 5px;
-    font-size: 25px;
   }
 }
 
@@ -444,25 +295,17 @@ body{
 
 @media all and (max-width : 992px){
   .nomPrenom {
-    text-align: right;
-    font-size: 27px;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: #505050;
-    position: relative;
     height: 180px;
-    width: 500px;
-    left: 15px;
+    width: 450px;
+    left: 0px;
   }
 
   body{
    height: 1150px;
-   padding-right: 10px;
   }
   .photo {
-    position: relative;
     top: -220px;
-    left: 55px;
+    left: 15px;
     height: 10px;
     
   }
@@ -472,15 +315,9 @@ body{
     
   }
   .contact {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
-    border-radius: 5px;
-    top: 15px;
-    width: 500px;
+    width: 435px;
     height: 232px;
-    font-size: 18px;
-    left: 600px;
+    left: 525px;
     top: -248px;
   }
   
@@ -489,171 +326,119 @@ body{
   /*-----------------------------------------------*/
   
   .presentation {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
-    width: 1085px;
+    width: 960px;
     height: 250px;
-    left: 15px;
+    left: 0px;
     top: -225px;
-    border-radius: 5px;
-    font-size: 70px;
-    overflow: hidden;
   
   }
   
-  .presentation:before {
-    content: attr(data-title);
-    position: relative;
-    top: 60px;
-    font-size: 100px;
-    transition: .5s;
-    opacity: 1;
-  }
-  
-  .presentation::after {
-    content: attr(data-text);
-    position: absolute;
-    width: 94%;
-    height: 250px;
-    font-weight: 300;
-    letter-spacing: 20px;
-    font-size: 35px;
-    top: 5px;
-    left: 50px;
-    transition: 1s;
-    opacity: 0;
-  }
-  
-  .presentation:hover::before {
-    transition: 1s;
-    opacity: 0;
-    font-size: 0px;
-  }
-  
-  
-  .presentation:hover::after {
-    transition: 1s;
-    letter-spacing: 1px;
-    opacity: 1;
-  }
   
   /*-----------------------------------------------*/
   /*ABILITIES*/
   /*-----------------------------------------------*/
   
   .abilities {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
-    width: 490px;
+    width: 425px;
     height: 285px;
-    left: 610px;
+    left: 535px;
     top: -481px;
-    border-radius: 5px;
-    font-size: 25px;
-    overflow: hidden;
   }
   
-  .abilities:before {
-    content: attr(data-title);
-    position: relative;
-    top: 80px;
-    font-size: 100px;
-    transition: .5s;
-    opacity: 1;
-  }
-  
-  .abilities::after {
-    content: attr(data-text);
-    position: absolute;
-    width: 94%;
-    height: 270px;
-    font-weight: 300;
-    letter-spacing: 30px;
-    font-size: 25px;
-    top: 25px;
-    left: 25px;
-    transition: 1s;
-    opacity: 0;
-  }
-  
-  .abilities:hover::before {
-    transition: 1s;
-    font-size: 0px;
-    opacity: 0;
-  
-  }
-  
-  
-  .abilities:hover::after {
-    transition: 1s;
-    letter-spacing: 1px;
-    opacity: 1;
-  }
-  
+
   /*-----------------------------------------------*/
   /*EXPERIENCE*/
   /*-----------------------------------------------*/
   
   
   .experience {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
-    width: 570px;
+    width: 510px;
     top: -190px;
     height: 285px;
-    left: 15px;
-    border-radius: 5px;
-    font-size: 25px;
-    overflow: hidden;
-  }
-  
-  .experience:before {
-    content: attr(data-title);
-    position: relative;
-    top: 80px;
-    font-size: 100px;
-    transition: .5s;
-    opacity: 1;
-  }
-  
-  .experience::after {
-    content: attr(data-text);
-    position: absolute;
-    width: 94%;
-    height: 250px;
-    font-weight: 300;
-    letter-spacing: 20px;
-    font-size: 25px;
-    top: 10px;
-    left: 25px;
-    transition: 1s;
-    opacity: 0;
-  }
-  
-  .experience:hover::before {
-    transition: 1s;
-    font-size: 0px;
-    opacity: 0;
-  
-  }
-  
-  .experience:hover::after {
-    transition: 1s;
-    letter-spacing: 1px;
-    opacity: 1;
+    left: 0px;
   }
   
   .portfolio {
-    position: relative;
-    text-align: center;
-    border: 3px solid black;
-    left: 15px;
+    left: 0px;
     top: -450px;
-    width: 1085px;
-    border-radius: 5px;
-    font-size: 25px;
+    width: 960px;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------*/
+
+@media all and (max-width: 600px){
+  .nomPrenom {
+    height: 180px;
+    width: 880px;
+    left: 5px;
+  }
+
+  body{
+   height: 1800px;
+  }
+  .photo {
+    top: -229px;
+    left: 40px;
+    height: 5px;
+    
+  }
+  .photo img{
+    width: 270px;
+    height: 220px;
+    
+  }
+  .contact {
+    width: 935px;
+    height: 232px;
+    left: 5px;
+    top: 10px;
+  }
+  
+  /*-----------------------------------------------*/
+  /*PRESENTATION*/
+  /*-----------------------------------------------*/
+  
+  .presentation {
+    width: 935px;
+    height: 250px;
+    left:5px;
+    top: 30px;
+  
+  }
+  
+  
+  /*-----------------------------------------------*/
+  /*ABILITIES*/
+  /*-----------------------------------------------*/
+  
+  .abilities {
+    width: 935px;
+    height: 275px;
+    left: 5px;
+    top: 70px;
+  }
+  
+
+  /*-----------------------------------------------*/
+  /*EXPERIENCE*/
+  /*-----------------------------------------------*/
+  
+  
+  .experience {
+    width: 935px;
+    top: 50px;
+    height: 275px;
+    left: 5px;
+  }
+  
+  .portfolio {
+    left: 5px;
+    top: 90px;
+    width: 935px;
   }
 }
