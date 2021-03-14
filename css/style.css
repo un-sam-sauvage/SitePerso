@@ -10,16 +10,19 @@
   width: 830px;
   left: 25px;
 }
-body{
- height: 1150px;
+
+body {
+  height: 1150px;
 }
+
 .photo {
   position: relative;
   top: -245px;
   left: 75px;
   height: 10px;
 }
-.photo img{
+
+.photo img {
   width: 320px;
   height: 220px;
 }
@@ -220,7 +223,7 @@ body{
 
 
 
-@media all and (max-width : 1200px){
+@media all and (max-width : 1200px) {
   .nomPrenom {
     height: 180px;
     width: 550px;
@@ -232,53 +235,56 @@ body{
     left: 55px;
     height: 10px;
   }
-  .photo img{
+
+  .photo img {
     width: 260px;
     height: 210px;
   }
+
   .contact {
     width: 525px;
     height: 232px;
     left: 630px;
     top: -248px;
   }
-  
+
   /*-----------------------------------------------*/
   /*PRESENTATION*/
   /*-----------------------------------------------*/
-  
+
   .presentation {
     width: 1150px;
     left: 5px;
     top: -225px;
-  
+
   }
-  
-    
+
+
   /*-----------------------------------------------*/
   /*ABILITIES*/
   /*-----------------------------------------------*/
-  
+
   .abilities {
-   width: 525px;
+    width: 525px;
     height: 285px;
     left: 630px;
     top: -481px;
   }
-  
-  
+
+
   /*-----------------------------------------------*/
   /*EXPERIENCE*/
   /*-----------------------------------------------*/
-  
-  
+
+
   .experience {
     width: 600px;
     top: -190px;
     height: 285px;
-    left: 5px;}
-  
-   
+    left: 5px;
+  }
+
+
   .portfolio {
     left: 5px;
     top: -450px;
@@ -293,71 +299,74 @@ body{
 /*-------------------------------------------------------------------------------------------*/
 
 
-@media all and (max-width : 992px){
+@media all and (max-width : 992px) {
   .nomPrenom {
     height: 180px;
     width: 450px;
     left: 0px;
   }
 
-  body{
-   height: 1150px;
+  body {
+    height: 1150px;
   }
+
   .photo {
     top: -220px;
     left: 15px;
     height: 10px;
-    
+
   }
-  .photo img{
+
+  .photo img {
     width: 255px;
     height: 205px;
-    
+
   }
+
   .contact {
     width: 435px;
     height: 232px;
     left: 525px;
     top: -248px;
   }
-  
+
   /*-----------------------------------------------*/
   /*PRESENTATION*/
   /*-----------------------------------------------*/
-  
+
   .presentation {
     width: 960px;
     height: 250px;
     left: 0px;
     top: -225px;
-  
+
   }
-  
-  
+
+
   /*-----------------------------------------------*/
   /*ABILITIES*/
   /*-----------------------------------------------*/
-  
+
   .abilities {
     width: 425px;
     height: 285px;
     left: 535px;
     top: -481px;
   }
-  
+
 
   /*-----------------------------------------------*/
   /*EXPERIENCE*/
   /*-----------------------------------------------*/
-  
-  
+
+
   .experience {
     width: 510px;
     top: -190px;
     height: 285px;
     left: 0px;
   }
-  
+
   .portfolio {
     left: 0px;
     top: -450px;
@@ -371,71 +380,74 @@ body{
 
 /*-------------------------------------------------------------------------------------------*/
 
-@media all and (max-width: 600px){
+@media all and (max-width: 600px) {
   .nomPrenom {
     height: 180px;
     width: 880px;
     left: 5px;
   }
 
-  body{
-   height: 1800px;
+  body {
+    height: 1800px;
   }
+
   .photo {
     top: -229px;
     left: 40px;
     height: 5px;
-    
+
   }
-  .photo img{
+
+  .photo img {
     width: 270px;
     height: 220px;
-    
+
   }
+
   .contact {
     width: 935px;
     height: 232px;
     left: 5px;
     top: 10px;
   }
-  
+
   /*-----------------------------------------------*/
   /*PRESENTATION*/
   /*-----------------------------------------------*/
-  
+
   .presentation {
     width: 935px;
     height: 250px;
-    left:5px;
+    left: 5px;
     top: 30px;
-  
+
   }
-  
-  
+
+
   /*-----------------------------------------------*/
   /*ABILITIES*/
   /*-----------------------------------------------*/
-  
+
   .abilities {
     width: 935px;
     height: 275px;
     left: 5px;
     top: 70px;
   }
-  
+
 
   /*-----------------------------------------------*/
   /*EXPERIENCE*/
   /*-----------------------------------------------*/
-  
-  
+
+
   .experience {
     width: 935px;
     top: 50px;
     height: 275px;
     left: 5px;
   }
-  
+
   .portfolio {
     left: 5px;
     top: 90px;
