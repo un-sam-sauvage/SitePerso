@@ -53,99 +53,17 @@ body {
   left: 25px;
   top: -240px;
   border-radius: 5px;
-  font-size: 70px;
-  overflow: hidden;
-
-}
-
-.presentation:before {
-  content: attr(data-title);
-  position: relative;
-  top: 60px;
-  font-size: 100px;
-  transition: .5s;
-  opacity: 1;
-}
-
-.presentation::after {
-  content: attr(data-text);
-  position: absolute;
-  width: 94%;
-  height: 250px;
-  font-weight: 300;
-  letter-spacing: 20px;
-  font-size: 35px;
-  top: 5px;
-  left: 50px;
-  transition: 1s;
-  opacity: 0;
-}
-
-.presentation:hover::before {
-  transition: 1s;
-  opacity: 0;
-  font-size: 0px;
-}
-
-
-.presentation:hover::after {
-  transition: 1s;
-  letter-spacing: 1px;
-  opacity: 1;
-}
-
-/*-----------------------------------------------*/
-/*ABILITIES*/
-/*-----------------------------------------------*/
-
-.abilities {
-  position: relative;
-  text-align: center;
-  border: 3px solid black;
-  width: 47.8%;
-  height: 285px;
-  left: 50%;
-  top: -490px;
-  border-radius: 5px;
-  font-size: 25px;
   overflow: hidden;
 }
 
-.abilities:before {
-  content: attr(data-title);
-  position: relative;
-  top: 80px;
-  font-size: 100px;
-  transition: .5s;
-  opacity: 1;
+.presentation .Title {
+  font-size: 55px;
+  margin-top: 0px;
 }
 
-.abilities::after {
-  content: attr(data-text);
-  position: absolute;
-  width: 94%;
-  height: 270px;
-  font-weight: 300;
-  letter-spacing: 30px;
-  font-size: 25px;
-  top: 25px;
-  left: 25px;
-  transition: 1s;
-  opacity: 0;
-}
-
-.abilities:hover::before {
-  transition: 1s;
-  font-size: 0px;
-  opacity: 0;
-
-}
-
-
-.abilities:hover::after {
-  transition: 1s;
-  letter-spacing: 1px;
-  opacity: 1;
+.presentation .Text {
+  font-size: 20px;
+  margin-top: -20px;
 }
 
 /*-----------------------------------------------*/
@@ -166,41 +84,41 @@ body {
   overflow: hidden;
 }
 
-.experience:before {
-  content: attr(data-title);
-  position: relative;
-  top: 80px;
-  font-size: 100px;
-  transition: .5s;
-  opacity: 1;
+.experience .Title {
+  font-size: 50px;
+  margin-top: 0px;
 }
 
-.experience::after {
-  content: attr(data-text);
-  position: absolute;
-  width: 94%;
-  height: 250px;
-  font-weight: 300;
-  letter-spacing: 20px;
+.experience .Text {
   font-size: 25px;
-  top: 10px;
-  left: 25px;
-  transition: 1s;
-  opacity: 0;
+  margin-top: -40px;
 }
 
-.experience:hover::before {
-  transition: 1s;
-  font-size: 0px;
-  opacity: 0;
+/*-----------------------------------------------*/
+/*ABILITIES*/
+/*-----------------------------------------------*/
 
+.abilities {
+  position: relative;
+  text-align: center;
+  border: 3px solid black;
+  width: 47.8%;
+  height: 285px;
+  left: 50%;
+  top: -490px;
+  border-radius: 5px;
+  font-size: 25px;
+  overflow: hidden;
 }
 
+.abilities .Title {
+  font-size: 50px;
+  margin-top: 0px;
+}
 
-.experience:hover::after {
-  transition: 1s;
-  letter-spacing: 1px;
-  opacity: 1;
+.abilities .Text {
+  font-size: 25px;
+  margin-top: -40px;
 }
 
 .portfolio {
@@ -214,7 +132,14 @@ body {
   font-size: 25px;
 }
 
-
+.portfolio .Title{
+  font-size: 50px;
+  margin-top: 0px;
+}
+.portfolio .Text{
+  font-size: 25px;
+  margin-top: -40px;
+}
 /*-------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------------------------------*/
