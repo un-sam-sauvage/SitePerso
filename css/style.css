@@ -17,14 +17,14 @@ body {
 
 .photo {
   position: relative;
-  top: -230px;
+  top: -240px;
   left: 4%;
   height: 10px;
 }
 
 .photo img {
-  width: 300px;
-  height: 200px;
+  width: 170px;
+  height: 220px;
 }
 
 .contact {
@@ -237,7 +237,7 @@ body {
   }
 
   .photo img {
-    width: 250px;
+    width: 150px;
     height: 200px;
   }
 
@@ -313,13 +313,13 @@ body {
 
   .photo {
     top: -220px;
-    left: 15px;
+    left: 20px;
     height: 10px;
 
   }
 
   .photo img {
-    width: 255px;
+    width: 155px;
     height: 205px;
 
   }
@@ -400,7 +400,7 @@ body {
   }
 
   .photo img {
-    width: 270px;
+    width: 170px;
     height: 220px;
 
   }
