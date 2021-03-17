@@ -226,25 +226,25 @@ body {
 @media all and (max-width : 1200px) {
   .nomPrenom {
     height: 180px;
-    width: 550px;
+    width: 45%;
     left: 5px;
   }
 
   .photo {
-    top: -225px;
-    left: 55px;
+    top: -220px;
+    left: 2%;
     height: 10px;
   }
 
   .photo img {
-    width: 260px;
-    height: 210px;
+    width: 250px;
+    height: 200px;
   }
 
   .contact {
-    width: 525px;
+    width: 47%;
     height: 232px;
-    left: 630px;
+    left: 52%;
     top: -248px;
   }
 
@@ -253,7 +253,7 @@ body {
   /*-----------------------------------------------*/
 
   .presentation {
-    width: 1150px;
+    width: 98.5%;
     left: 5px;
     top: -225px;
 
@@ -265,9 +265,9 @@ body {
   /*-----------------------------------------------*/
 
   .abilities {
-    width: 525px;
+    width: 47%;
     height: 285px;
-    left: 630px;
+    left: 52%;
     top: -481px;
   }
 
@@ -278,7 +278,7 @@ body {
 
 
   .experience {
-    width: 600px;
+    width: 50%;
     top: -190px;
     height: 285px;
     left: 5px;
@@ -288,7 +288,7 @@ body {
   .portfolio {
     left: 5px;
     top: -450px;
-    width: 1150px;
+    width: 98.5%;
   }
 }
 
