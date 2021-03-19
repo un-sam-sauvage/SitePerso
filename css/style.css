@@ -199,7 +199,24 @@ body {
 .portfolio .Text{
   font-size: 25px;
   margin-top: -40px;
+  list-style-type: none;
 }
+.portfolio .Text .splahIt{
+    margin-right: 20px;
+    margin-bottom: 10px;
+ }
+ .portfolio .Text .tron{
+   margin-right: 20px;
+   margin-bottom: 10px;
+ }
+ .portfolio .Text .battleStereotype{
+  margin-left: -55px; 
+  margin-top: 10px;
+ }
+ .portfolio .Text .aPlusDansLeBus{
+   margin-left: 50px;
+ }
+
 /*-------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------------------------------*/
