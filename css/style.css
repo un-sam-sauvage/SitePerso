@@ -11,7 +11,8 @@
   left: 25px;
   color: #3e588f;
 }
-.nomPrenom .text{
+
+.nomPrenom .text {
   margin-top: 70px;
   margin-right: 20px;
   font-size: 35px;
@@ -50,10 +51,11 @@ body {
   color: #203562;
   font-size: 25px;
 }
-.contact .Title{
+
+.contact .Title {
   font-size: 45px;
   margin-top: 10px;
-  color:#3e588f;
+  color: #3e588f;
 }
 
 /*-----------------------------------------------*/
@@ -104,7 +106,7 @@ body {
   font-size: 25px;
   overflow: hidden;
   background-color: #c0c5cd;
-  
+
 }
 
 .experience .Title {
@@ -120,11 +122,13 @@ body {
   margin-left: -30px;
   list-style-type: none;
 }
-.experience .Text .date{
+
+.experience .Text .date {
   font-size: 20px;
   margin-top: -20px;
 }
-.experience .Text .lieu{
+
+.experience .Text .lieu {
   font-size: 20px;
   margin-top: -15px;
 }
@@ -153,30 +157,39 @@ body {
   margin-top: 0px;
   color: #3e588f;
 }
-.abilities .unity{
+
+.abilities .unity {
   text-align: left;
   margin-left: 25px;
   margin-top: -20px;
 }
-.abilities .html{
+
+.abilities .html {
   text-align: left;
   margin-left: 25px;
   margin-top: 25px;
 }
-.abilities .html .text{
+
+.abilities .html .text {
   margin-top: -30px;
   margin-left: 35px;
 }
-.abilities .gitKraken{
+
+.abilities .gitKraken {
   text-align: left;
   margin-left: 25px;
 }
 
-.abilities .VFX{
+.abilities .VFX {
   text-align: right;
   margin-top: -130px;
   margin-right: 150px;
 }
+
+/*-------------------------------------------------------------------------------
+PORTFOLIO
+---------------------------------------------------------------------------------*/
+
 
 .portfolio {
   position: relative;
@@ -191,31 +204,40 @@ body {
   color: #203562;
 }
 
-.portfolio .Title{
+.portfolio .Title {
   font-size: 50px;
   margin-top: 0px;
   color: #3e588f;
 }
-.portfolio .Text{
+
+.portfolio .Text {
   font-size: 25px;
   margin-top: -40px;
   list-style-type: none;
 }
-.portfolio .Text .splahIt{
-    margin-right: 20px;
-    margin-bottom: 10px;
- }
- .portfolio .Text .tron{
-   margin-right: 20px;
-   margin-bottom: 10px;
- }
- .portfolio .Text .battleStereotype{
-  margin-left: -55px; 
+
+.portfolio .Text .splashIt {
+  margin-left: -1100px;
+}
+.portfolio .Text .splashIt .splashItTxt{
+  margin-top: -310px;
+  margin-left: 1450px;
+  text-align: left;
+}
+
+.portfolio .Text .tron {
+  margin-top: -5px;
+  margin-left: 500px;
+}
+
+.portfolio .Text .battleStereotype {
+  margin-left: -55px;
   margin-top: 10px;
- }
- .portfolio .Text .aPlusDansLeBus{
-   margin-left: 50px;
- }
+}
+
+.portfolio .Text .aPlusDansLeBus {
+  margin-left: 50px;
+}
 
 /*-------------------------------------------------------------------------------------------*/
 
