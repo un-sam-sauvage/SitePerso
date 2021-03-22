@@ -217,17 +217,22 @@ PORTFOLIO
 }
 
 .portfolio .Text .splashIt {
-  margin-left: -1100px;
+  margin-left: -78%;
 }
 .portfolio .Text .splashIt .splashItTxt{
-  margin-top: -310px;
-  margin-left: 1450px;
+  margin-top: -12.5%;
+  margin-left: 58%;
   text-align: left;
 }
 
 .portfolio .Text .tron {
-  margin-top: -5px;
-  margin-left: 500px;
+  margin-top: -23%;
+  margin-left: 300px;
+}
+.portfolio .Text .tron .projectTronTxt{
+  margin-left: 70%;
+  margin-top: -310px;
+  text-align: left;
 }
 
 .portfolio .Text .battleStereotype {
