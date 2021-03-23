@@ -210,39 +210,27 @@ PORTFOLIO
   color: #3e588f;
 }
 
-.portfolio .Text {
-  font-size: 25px;
-  margin-top: -40px;
-  list-style-type: none;
+
+.portfolio .splashIt {
+  margin-left: -800px;
 }
 
-.portfolio .Text .splashIt {
-  margin-left: -78%;
-}
-.portfolio .Text .splashIt .splashItTxt{
-  margin-top: -12.5%;
-  margin-left: 58%;
-  text-align: left;
+.portfolio .splashItTxt {
+  position: relative;
+  margin-top: -300px;
+  width: 330px;
+  margin-left: 30px;
+  text-align: center;
+  background-color: red;
+  border: 3px solid blueviolet;
+
 }
 
-.portfolio .Text .tron {
-  margin-top: -23%;
-  margin-left: 300px;
-}
-.portfolio .Text .tron .projectTronTxt{
-  margin-left: 70%;
-  margin-top: -310px;
-  text-align: left;
+.portfolio .splashItTxt :hover {
+  border: 3px solid green;
+  background-color: blue;
 }
 
-.portfolio .Text .battleStereotype {
-  margin-left: -55px;
-  margin-top: 10px;
-}
-
-.portfolio .Text .aPlusDansLeBus {
-  margin-left: 50px;
-}
 
 /*-------------------------------------------------------------------------------------------*/
 
