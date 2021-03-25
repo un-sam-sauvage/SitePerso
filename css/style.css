@@ -212,24 +212,53 @@ PORTFOLIO
 
 
 .portfolio .splashIt {
-  margin-left: -800px;
+  margin-left: -55%;
 }
 
-.portfolio .splashItTxt {
+.portfolio .splashItTxt p {
   position: relative;
-  margin-top: -300px;
+  margin-top: -290px;
   width: 330px;
-  margin-left: 30px;
+  height: 250px;
+  margin-left: 11%;
   text-align: center;
-  background-color: red;
-  border: 3px solid blueviolet;
-
+  padding-top: 10px;
+  opacity: 0;
+  transition: .5s;
 }
 
 .portfolio .splashItTxt :hover {
-  border: 3px solid green;
-  background-color: blue;
+  background-color: white;
+  border: 2px solid black;
+  opacity: 1;
 }
+
+.portfolio .tron {
+  position: absolute;
+  margin-top: -301.5px;
+  right: 100px;
+}
+
+.portfolio .tronTxt p {
+  position: relative;
+  text-align: center;
+  width: 330px;
+  margin-left: 68%;
+  margin-top: -290px;
+  transition: .5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24.5px;
+  opacity: 0;
+}
+
+.portfolio .tronTxt :hover {
+  background-color: white;
+  border: 2px solid black;
+  opacity: 1;
+}
+
+
 
 
 /*-------------------------------------------------------------------------------------------*/
