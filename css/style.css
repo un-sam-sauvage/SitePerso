@@ -220,7 +220,7 @@ PORTFOLIO
   margin-top: -290px;
   width: 330px;
   height: 250px;
-  margin-left: 11%;
+  margin-left: 13.4%;
   text-align: center;
   padding-top: 10px;
   opacity: 0;
@@ -236,14 +236,14 @@ PORTFOLIO
 .portfolio .tron {
   position: absolute;
   margin-top: -301.5px;
-  right: 100px;
+  right: 22%;
 }
 
 .portfolio .tronTxt p {
   position: relative;
   text-align: center;
   width: 330px;
-  margin-left: 68%;
+  margin-left: 58%;
   margin-top: -290px;
   transition: .5s;
   padding-top: 10px;
@@ -266,7 +266,14 @@ PORTFOLIO
 /*-------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------------------------------*/
-
+@media all and (max-width : 1500px){
+  .portfolio .splashItTxt{
+    margin-left: -4%;
+  }
+  .portfolio .tron{
+    right: 200px;
+  }
+}
 
 
 @media all and (max-width : 1200px) {
