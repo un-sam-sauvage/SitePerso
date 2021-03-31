@@ -235,16 +235,20 @@ PORTFOLIO
 
 .portfolio .tron {
   position: absolute;
-  margin-top: -301.5px;
-  right: 22%;
+  margin-top: -365px;
+  right: 20%;
+}
+
+.portfolio .tronTxt {
+  margin-left: 60%;
+  width: 330px;
 }
 
 .portfolio .tronTxt p {
   position: relative;
   text-align: center;
   width: 330px;
-  margin-left: 58%;
-  margin-top: -290px;
+  margin-top: -350px;
   transition: .5s;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -258,20 +262,137 @@ PORTFOLIO
   opacity: 1;
 }
 
+.portfolio .battleStereotype {
+  margin-top: 50px;
+  margin-left: -55%;
+}
+
+.portfolio .battleStereotypeTxt p {
+  position: relative;
+  text-align: center;
+  width: 330px;
+  margin-top: -320px;
+  margin-left: 13.3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.portfolio .battleStereotypeTxt :hover {
+  background-color: white;
+  border: 2px solid black;
+  opacity: 1;
+}
+
+.portfolio .aPlusDansLeBus {
+  position: absolute;
+  margin-top: -430px;
+  margin-left: 8%;
+}
+
+.portfolio .aPlusDansLeBusTxt p {
+  position: relative;
+  text-align: center;
+  width: 330px;
+  margin-top: -420px;
+  margin-left: 60%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.portfolio .aPlusDansLeBusTxt :hover {
+  background-color: white;
+  border: 2px solid black;
+  opacity: 1;
+}
+
+.portfolio .splashItLink {
+  margin-left: -55%;
+  margin-top: 35px;
+}
+
+.portfolio .projectTronLink {
+  margin-top: -2px;
+  margin-left: 37%;
+}
+
+.portfolio .battleStereotypeLink {
+  margin-left: -55%;
+  margin-top: 60px;
+}
+
+.portfolio .aPlusDansLeBusLink {
+  margin-top: 35px;
+  margin-left: 37%;
+}
 
 
+@media all and (max-width : 1700px) {
+  .portfolio .splashItTxt {
+    margin-left: -1.7%;
+  }
+
+  .portfolio .tronTxt {
+    margin-left: 57%;
+  }
+
+  .portfolio .aPlusDansLeBus {
+    left: 47%;
+  }
+
+  .portfolio .aPlusDansLeBusLink {
+    margin-left: 35%;
+  }
+
+  .portfolio .aPlusDansLeBusTxt {
+    margin-left: -7%;
+  }
+
+  .portfolio .battleStereotypeTxt {
+    margin-left: -1.7%;
+  }
+}
 
 /*-------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------------------------------*/
-@media all and (max-width : 1500px){
-  .portfolio .splashItTxt{
+@media all and (max-width : 1500px) {
+  .portfolio .splashItTxt {
     margin-left: -4%;
   }
-  .portfolio .tron{
+
+  .portfolio .tron {
     right: 200px;
+  }
+
+  .portfolio .tronTxt {
+    margin-left: 57%;
+  }
+
+  .portfolio .projectTronLink {
+    margin-left: 43%;
+  }
+
+  .portfolio .aPlusDansLeBus {
+    left: 49%;
+  }
+
+  .portfolio .aPlusDansLeBusTxt {
+    margin-left: -.5%;
+  }
+
+
+  .portfolio .aPlusDansLeBusLink {
+    margin-left: 43%;
+  }
+
+  .portfolio .battleStereotypeTxt {
+    margin-left: -3.7%;
   }
 }
 
@@ -342,6 +463,26 @@ PORTFOLIO
     left: 5px;
     top: -450px;
     width: 98.5%;
+  }
+
+  .portfolio .tron {
+    right: 10%;
+  }
+
+  .portfolio .splashItTxt p {
+    margin-left: 11%;
+  }
+
+  .portfolio .aPlusDansLeBus {
+    left: 49%;
+  }
+
+  .portfolio .aPlusDansLeBusTxt {
+    margin-left: -2%;
+  }
+
+  .portfolio .battleStereotypeTxt {
+    margin-left: -6.5%;
   }
 }
 
@@ -426,6 +567,22 @@ PORTFOLIO
     top: -450px;
     width: 960px;
   }
+
+  .portfolio .tron {
+    right: 6%;
+  }
+
+  .portfolio .splashItTxt p {
+    margin-left: 9%;
+  }
+
+  .portfolio .aPlusDansLeBusTxt {
+    margin-left: -1%;
+  }
+
+  .portfolio .battleStereotypeTxt {
+    margin-left: -9.5%;
+  }
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -506,5 +663,21 @@ PORTFOLIO
     left: 5px;
     top: 90px;
     width: 935px;
+  }
+
+  .portfolio .splashItTxt {
+    margin-left: -5%;
+  }
+
+  .portfolio .tronTxt {
+    margin-left: 55%;
+  }
+
+  .portfolio .aPlusDansLeBusTxt {
+    margin-left: 0%;
+  }
+
+  .portfolio .battleStereotypeTxt {
+    margin-left: -9.99%;
   }
 }
