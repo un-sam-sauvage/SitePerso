@@ -672,9 +672,11 @@ PORTFOLIO
   .portfolio .tronTxt {
     margin-left: 55%;
   }
-
+  .portfolio .aPlusDansLeBus{
+    margin-left: 2%;
+  }
   .portfolio .aPlusDansLeBusTxt {
-    margin-left: 0%;
+    margin-left: -14%;
   }
 
   .portfolio .battleStereotypeTxt {
