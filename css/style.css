@@ -395,7 +395,23 @@ PORTFOLIO
     margin-left: -3.7%;
   }
 }
-
+@media all and (max-width : 1400px){
+  .portfolio .splashItTxt{
+    margin-left: -4.2%;
+  }
+  .portfolio .tron{
+    right: 12%;
+  }
+  .portfolio .tronTxt{
+    margin-left: 57%;
+  }
+  .portfolio .battleStereotypeTxt{
+    margin-left: -4%;
+  }
+  .portfolio .aPlusDansLeBus{
+    margin-left: 2.5%;
+  }
+}
 
 @media all and (max-width : 1200px) {
   .nomPrenom {
