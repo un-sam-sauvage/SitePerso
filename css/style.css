@@ -675,24 +675,51 @@ PORTFOLIO
     width: 935px;
   }
 
-  .portfolio .splashItTxt {
-    margin-left: -5%;
+  .portfolio .splashIt{
+    margin-left: 0%;
   }
-
-  .portfolio .tronTxt {
-    margin-left: 55%;
+  .portfolio .splashItTxt p {
+    width: 500px;
+    margin-left: 28%;
+    font-size: 31px;
   }
-  .portfolio .aPlusDansLeBusTxt {
-    margin-left: -25%;
+  .portfolio .splashItLink{
+    margin-left: 0%;
   }
-
-  .portfolio .battleStereotypeTxt {
-    margin-left: -9.99%;
+  .portfolio .tron{
+   margin-left: 0%;
+   margin-top: 0%;
+ }
+  .portfolio .tronTxt p{
+    margin-left: -100%;
+    width: 500px;
+    font-size: 30px;
   }
   .portfolio .projectTronLink{
-    margin-top: -15px;
+    margin-left: 0%;
+  }
+
+  .portfolio .aPlusDansLeBus{
+    margin-left: 0%;
+    margin-top: 100px;
+  }
+  .portfolio .aPlusDansLeBusTxt p{
+    width: 50%;
+    font-size: 30px;
+    margin-left: 33%;
   }
   .portfolio .aPlusDansLeBusLink{
-    margin-top: -15px;
+    margin-left: 0%;
+  }
+  .portfolio .battleStereotype{
+    margin-left: 0%;
+  }
+  .portfolio .battleStereotypeTxt p{
+    width: 50%;
+    font-size: 30px;
+    margin-left:29%;
+  }
+  .portfolio .battleStereotypeLink{
+    margin-left: 0%;
   }
 }
