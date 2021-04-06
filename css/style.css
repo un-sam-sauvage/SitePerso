@@ -685,10 +685,11 @@ PORTFOLIO
   }
   .portfolio .splashItLink{
     margin-left: 0%;
+    margin-top: 70px;
   }
   .portfolio .tron{
    margin-left: 0%;
-   margin-top: 0%;
+   margin-top: 20px;
  }
   .portfolio .tronTxt p{
     margin-left: -100%;
@@ -721,5 +722,6 @@ PORTFOLIO
   }
   .portfolio .battleStereotypeLink{
     margin-left: 0%;
+    margin-top: 70px;
   }
 }
