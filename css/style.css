@@ -680,6 +680,7 @@ PORTFOLIO
   }
   .portfolio .splashItTxt p {
     width: 500px;
+    height: 300px;
     margin-left: 28%;
     font-size: 31px;
   }
@@ -717,6 +718,7 @@ PORTFOLIO
   }
   .portfolio .battleStereotypeTxt p{
     width: 50%;
+    height: 300px;
     font-size: 30px;
     margin-left:29%;
   }
