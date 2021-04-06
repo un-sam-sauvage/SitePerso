@@ -726,4 +726,7 @@ PORTFOLIO
     margin-left: 0%;
     margin-top: 70px;
   }
+  body{
+    height: 3800px;
+  }
 }
